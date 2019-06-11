@@ -1,0 +1,29 @@
+.todo {
+    border: 5px double black;
+    padding: 10px;
+}
+.todoEdit {
+    border: 5px dashed orange;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.todoList {
+    border: 5px dashed green;
+    padding: 10px;
+}
+ul {
+    padding: 0
+}
+ul li {
+    padding: 10px;
+    list-style-type: none;
+    border: 1px solid #ccc;
+}
+li button {
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 13px;
+}
+li button.done, li button.Done {
+    color: green;
+}
